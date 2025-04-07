@@ -5,11 +5,11 @@ import java.util.List;
 
 public class Institucion {
     private String idOficial;
-    private List ubicaciones;
+    private List<String> ubicaciones;
     private GregorianCalendar fechaDeInicio;
     private String rol;
 
-    public Institucion(String idOficial, List ubicaciones, GregorianCalendar fechaDeInicio, String rol) {
+    public Institucion(String idOficial, List<String> ubicaciones, GregorianCalendar fechaDeInicio, String rol) {
         this.idOficial = idOficial;
         this.ubicaciones = ubicaciones;
         this.fechaDeInicio = fechaDeInicio;

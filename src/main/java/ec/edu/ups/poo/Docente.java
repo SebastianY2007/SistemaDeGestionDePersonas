@@ -6,7 +6,7 @@ public class Docente extends Persona{
     private List<String> titulosAcademicos;
     private List<String> areasDeEspecializacion;
 
-    public Docente(List direcciones, String correoElectronico, String telefono, String apellido, String nombre, String cedula, List<String> titulosAcademicos, List<String> areasDeEspecializacion) {
+    public Docente(List<String> direcciones, String correoElectronico, String telefono, String apellido, String nombre, String cedula, List<String> titulosAcademicos, List<String> areasDeEspecializacion) {
         super(direcciones, correoElectronico, telefono, apellido, nombre, cedula);
         this.titulosAcademicos = titulosAcademicos;
         this.areasDeEspecializacion = areasDeEspecializacion;

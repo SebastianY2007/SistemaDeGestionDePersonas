@@ -8,9 +8,9 @@ public class Persona {
     private String apellido;
     private String telefono;
     private String correoElectronico;
-    private List direcciones;
+    private List<String> direcciones;
 
-    public Persona(List direcciones, String correoElectronico, String telefono, String apellido, String nombre, String cedula) {
+    public Persona(List<String> direcciones, String correoElectronico, String telefono, String apellido, String nombre, String cedula) {
         this.direcciones = direcciones;
         this.correoElectronico = correoElectronico;
         this.telefono = telefono;
